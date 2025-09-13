@@ -1,0 +1,116 @@
+:root{
+    --font-title: "Vibur", cursive;
+    --font-text: "Salsa", cursive;
+    --color-light: #f4f4f4;
+    --color-purple-400: rgb(48, 0, 104);
+    --color-purple-900: rgb(136, 0, 221);
+    --color-dark: #000000;
+
+    
+
+
+}
+body{
+    font-family: var(--font-text);
+}
+.dropdown-item{
+    font-family: var(--font-text);
+}
+.dropdown-menu{
+    background-color: var(--color-purple-900);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: var(--font-text);
+}
+.navbar-brand{
+    font-size: 35px;
+    color: var(--color-light)
+}
+
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background-color:rgb(136, 0, 221);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.navbar{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.nav-link {
+    font-weight: 600 ;
+    color: var(--color-dark)
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-family: var(--font-text);
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+#hero-page, #section2, #section3, #section4, #section5{
+    min-height: 100vh;
+}
+
+#hero-page, #section2, #section3, #section4, #section5 {
+    background-color:rgb(0, 0, 0);
+}
+#hero-page{
+    background-color: var(--color-dark);
+}
+.hero-image{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+}
+.containerCopo{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.containerCopo img, .containerCopo div{
+    justify-content: space-between;
+    height: 50vh;
+    
+}
+.containerCopo img{
+    display: flex;
+    padding-top: 7%;
+    padding-left: 5%;
+    height: 50%;
+
+}
+.containerCopo div{
+    padding-top: 13%;
+    padding-left: 7%;
+    padding-right: 20%;
+    padding-bottom: 7%;
+    justify-content: center;
+}
+
+h2, h3, p{
+    color: var(--color-light);
+    font-family: var(--font-text);
+
+}
+
+
+
+
+
