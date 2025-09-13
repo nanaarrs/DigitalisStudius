@@ -5,6 +5,11 @@
     --color-purple-400: rgb(48, 0, 104);
     --color-purple-900: rgb(136, 0, 221);
     --color-dark: #000000;
+    --color-ana: #b879ff;
+    --color-mari: #fff177;
+    --color-le: #7fd0ff;
+
+
 
     
 
@@ -20,7 +25,7 @@ body{
     background-color: var(--color-purple-900);
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h5 {
     font-family: var(--font-text);
 }
 .navbar-brand{
@@ -69,19 +74,28 @@ a{
 #hero-page, #section2, #section3, #section4, #section5 {
     background-color:rgb(0, 0, 0);
 }
-#hero-page{
-    background-color: var(--color-dark);
-}
 .hero-image{
     justify-content: center;
     display: flex;
     align-items: center;
     height: 100vh;
-
+    flex-direction: column;
+    
 }
+.hero-image h1{
+    color:var(--color-purple-900);
+}
+.hero-image p{
+    font-size: 25px;
+}
+.hero-image h5{
+    color: #755d83;
+}
+
 .containerCopo{
     display: flex;
     justify-content: flex-start;
+    padding: 10%;
 
 }
 .containerCopo img, .containerCopo div{
@@ -102,13 +116,172 @@ a{
     padding-right: 20%;
     padding-bottom: 7%;
     justify-content: center;
+    height: fit-content;
+    font-size: 20px;
+}
+.containerCopo p{
+    padding-left: 5%;
+    padding-top: 2%;
+
 }
 
-h2, h3, p{
+p{
     color: var(--color-light);
     font-family: var(--font-text);
+    
 
 }
+.containerCopo h2{
+    color: #be6923;
+    font-size: 50px;
+    font-family: "Love Ya Like A Sister", cursive;
+}
+
+
+
+
+
+
+
+
+.titulo {
+    justify-items: center;
+    padding-top: 5%;   
+}
+.titulo h1{
+    color: var(--color-light);
+    font-family: "Love Ya Like A Sister", cursive;
+    font-size: 300%;
+}
+.containerPersonagens {
+    justify-content: flex-start;
+    display: flex;
+    
+
+}
+
+.containerPersonagens melissa, .containerPersonagens antonio, .containerPersonagens steve{
+    justify-content: space-between;
+    
+}
+.melissa{
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 3%;
+    padding-bottom: 7%;
+}
+.antonio{
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 7%;
+}
+.steve{
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 7%;
+    padding-bottom: 7%;
+}
+.card-body{
+    background-color: var(--color-dark);
+}
+
+
+
+
+
+
+
+
+.section4{
+    justify-content: center;
+}
+.containerCena1 {
+        display: flex;
+        justify-content: center;   
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+}
+.containerCena1 h1{
+    font-family: "Love Ya Like A Sister", cursive;
+    font-size: 300%;
+    color: var(--color-light);
+
+}
+.containerCena1 img{
+    width: 1000px;
+    border-radius: 20px;
+}
+.containerCena1 p{
+    font-size: 25px;
+    padding-left: 29%;
+    padding-right: 28%;
+}
+
+
+.persona{
+    justify-items: center;
+    padding-top: 5%;       
+}
+.persona h1{
+    color: var(--color-light);
+    font-family: "Love Ya Like A Sister", cursive;
+    font-size: 300%;
+
+}
+.containerEquipe{
+    display: flex;
+    justify-content: center;
+}
+
+.Nanaarrs h5{
+    color: var(--color-ana);
+}
+.Nanaarrs .list-group-item{
+    background-color: var(--color-ana);
+}
+.Nanaarrs{
+  padding: 5%;
+}
+.Nanaarrs .card-body a{
+    color: var(--color-ana)
+}
+.Mari h5{
+    color: var(--color-mari);
+}
+.Mari .list-group-item{
+    background-color: var(--color-mari);
+}
+.Mari{
+  padding: 5%;
+}
+.Mari .card-body a{
+    color: var(--color-mari)
+}
+
+.Lets h5{
+    color: var(--color-le);
+}
+.Lets .card-body a{
+    color: var(--color-le)
+}
+.Lets .list-group-item{
+    background-color: var(--color-le);
+}
+.Lets{
+  padding: 5%;
+}
+footer{
+    background-color: var(--color-purple-900);
+    height: 10vh;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+
+
 
 
 
